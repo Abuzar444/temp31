@@ -1,6 +1,6 @@
 import Tour from "./Tour";
 
-export default function TourList({ tours, handleDelete }) {
+function TourList({ tours, handleDelete }) {
   // const renderedTours = tours.map((tour) => (
   //   <Tour
   //     {...tour}
@@ -17,3 +17,5 @@ export default function TourList({ tours, handleDelete }) {
     </div>
   );
 }
+
+export default TourList

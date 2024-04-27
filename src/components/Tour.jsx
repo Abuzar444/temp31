@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Tour({ id, image, info, name, price, handleDelete }) {
+function Tour({ id, image, info, name, price, handleDelete }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -54,3 +54,5 @@ export default function Tour({ id, image, info, name, price, handleDelete }) {
     </div>
   );
 }
+
+export default Tour;

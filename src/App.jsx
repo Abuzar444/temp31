@@ -6,7 +6,7 @@ import TourList from "./components/TourList";
 
 const url = "https://www.course-api.com/react-tours-project";
 
-export default function App() {
+function App() {
   const [tours, setTours] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -54,3 +54,5 @@ export default function App() {
     </section>
   );
 }
+
+export default App;

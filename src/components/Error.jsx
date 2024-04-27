@@ -1,6 +1,6 @@
 import errorSVG from "../assets/404.svg";
 
-export default function Error({ msg }) {
+function Error({ msg }) {
   console.log(msg);
   return (
     <div className="text-center container mx-auto py-[100px]">
@@ -13,3 +13,5 @@ export default function Error({ msg }) {
     </div>
   );
 }
+
+export default Error;
