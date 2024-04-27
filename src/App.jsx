@@ -40,10 +40,6 @@ export default function App() {
     return <Error msg={error} />;
   }
 
-  if (tours.length === 0) {
-    return <div>something went wrongs</div>
-  }
-
   return (
     <section className="bg-emerald-100 min-h-screen w-screen py-[64px]">
       <div className="container mx-auto ">
