@@ -4,7 +4,7 @@ import Loader from "./components/Loader";
 import Error from "./components/Error";
 import TourList from "./components/TourList";
 
-const url = "https://www.course-api.com/react-tours-project";
+const url = 'https://www.course-api.com/react-tours-project';
 
 function App() {
   const [tours, setTours] = useState([]);
