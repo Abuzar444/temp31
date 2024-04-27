@@ -20,7 +20,7 @@ export default function App() {
   const fetchData = async () => {
     try {
       setIsLoading(true);
-      const response = await axios(url);
+      const response = await axios.get(url);
       setTours(response.data);
       setIsLoading(false);
     } catch (error) {
