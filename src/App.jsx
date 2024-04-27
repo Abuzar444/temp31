@@ -21,7 +21,8 @@ function App() {
     try {
       setIsLoading(true);
       const response = await axios.get(url);
-      setTours(response.data);
+      const tour = await response.json()
+      setTours(tour)
       setIsLoading(false);
     } catch (error) {
       console.log(error.response.data.msg);
